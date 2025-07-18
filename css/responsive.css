@@ -423,6 +423,7 @@ p.about-desc {
     position: relative;
     top: 244px;
 }
+
 }
 
 
@@ -457,5 +458,12 @@ p.about-desc {
 .ftr-desc span {
     max-width: 288px;
     font-size: 12px;
+}
+.tool-box{
+    width: 132px;
+    height: 132px;
+}
+.tool-box img{
+    width: 50px;
 }
 }
