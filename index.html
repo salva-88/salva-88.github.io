@@ -13,11 +13,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/responsive.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Judson:ital,wght@0,400;0,700;1,400&display=swap"
         rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -40,7 +42,15 @@
                         </ul>
                     </nav>
                 </div>
-                <a class="talk-btn" href="#">Let's talk</a>
+                <div>
+                    <a class="talk-btn" href="#">Let's talk</a>
+                    <div class="toggle-bt">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                </div>
+                
 
             </div>
 
@@ -63,8 +73,7 @@
                             <div class="hire-me-container">
                                 <div class="icons">
                                     <img src="images/figma.png" alt="">
-                                    <!-- <img src="images/diamond.png" alt=""> -->
-                                     <img src="images/html1.png" alt="">
+                                    <img src="images/html1.png" alt="">
                                 </div>
                                 <button class="hire-btn">Hire Me</button>
                             </div>
@@ -73,7 +82,7 @@
                 </div>
                 <div class="col-md-7">
                     <div class="my-image">
-                        <img src="images/me.png" alt="">
+                        <img src="images/abt-img2.png" alt="">
                         <img class="circle-btn" src="images/circle.png" alt="">
                     </div>
                 </div>
@@ -85,16 +94,17 @@
     <!-- about -->
     <section id="about">
         <div class="container">
-            <div class="about-container">
+            <div class="about-container"  data-aos="zoom-in" data-aos-duration="2000">
                 <div class="">
                     <div class="row">
                         <div class="col-md-6">
                             <div>
-                                <img class="about-image" src="images/about image.png" alt="">
+                                <img class="about-image scroll-hidden" src="images/about image.png" alt="">
+                                <!-- <img src="images/abt-img2.png" alt=""> -->
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <div class="about-section">
+                            <div class="about-section ">
                                 <p class="about-label">About Me</p>
                                 <h3 class="about-title">Why I'm better for your project?</h3>
                                 <p class="about-desc">As a passionate and user-centered UI/UX. I turn complex ideas into
@@ -106,12 +116,15 @@
                                 </p>
                                 <a class="dwnld-btn" href="#">Download CV <img src="images/arrow.png" alt=""></a>
                                 <a class="email-tag" href=""><img class="email-icon" src="images/email.png"
-                                        alt="">fathimasalva37@gmail.com</a>
+                                        alt="">fathimasalva37@gmail.com
+                                </a>
                                 <div class="social-icons">
-                                    <i class="fa-brands fa-linkedin-in"></i>
-                                    <i class="fa-brands fa-whatsapp"></i>
-                                    <i class="fa-brands fa-instagram"></i>
-                                    <i class="fa-brands fa-behance"></i>
+                                    <a href="https://www.linkedin.com/in/fathima-salva-p/"><i
+                                            class="fa-brands fa-linkedin-in"></i></a>
+                                    <a href="https://wa.me/8086952072"><i class="fa-brands fa-whatsapp"></i></a>
+                                    <a href="https://instagram.com/_.salva.hzn"><i
+                                            class="fa-brands fa-instagram"></i></a>
+                                    <a href=""> <i class="fa-brands fa-behance"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -125,26 +138,26 @@
     <!-- skills -->
     <section id="skills">
         <div class="container">
-            <div class="skills-container">
+            <div class="skills-container" >
                 <div class="sprk-img">
                     <img src="images/spark image.png" alt="">
                     <img src="images/spark image2.png" alt="">
                 </div>
-                <div class="skills-sectn">
+                <div class="skills-sectn" data-aos="fade-right"data-aos-duration="1000">
                     <h1>My Digital Toolkit</h1>
                     <p>Every tool use a step towards crafting seamless inspiring digital experiences.</p>
                 </div>
-                <div class="tool-sectn">
+                <div class="tool-sectn" data-aos="fade-down"  data-aos-easing="linear"data-aos-duration="900">
                     <div class="row g-3">
-                        <div class="col-md-4">
+                        <div class="col-md-4 col-6">
                             <div class="tools">
-                                <div class="tool-box">
+                                <div class="tool-box" >
                                     <img src="images/figma2.png" alt="">
                                 </div>
                                 <p>Figma</p>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 col-6">
                             <div class="tools ps-line">
                                 <div class="tool-box">
                                     <img src="images/photoshop.png" alt="">
@@ -152,7 +165,7 @@
                                 <p>Photoshop</p>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 col-6">
                             <div class="tools">
                                 <div class="tool-box">
                                     <img src="images/html.png" alt="">
@@ -162,7 +175,7 @@
                         </div>
                         <hr class="divider-1">
                         <!-- <img class="line" src="images/under line.png" alt=""> -->
-                        <div class="col-md-4">
+                        <div class="col-md-4 col-6">
                             <div class="tools">
                                 <div class="tool-box">
                                     <img src="images/css.png" alt="">
@@ -170,7 +183,7 @@
                                 <p>CSS</p>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 col-6">
                             <div class="tools ps-line">
                                 <div class="tool-box">
                                     <img src="images/bootstrap.png" alt="">
@@ -178,7 +191,7 @@
                                 <p>Bootstrap</p>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 col-6">
                             <div class="tools">
                                 <div class="tool-box">
                                     <img src="images/javascript.png" alt="">
@@ -198,79 +211,81 @@
     <section id="knowledge">
         <div class="container">
             <div class="knwldg-container">
-                <div class="knwldg-sctn">
+                <div class="knwldg-sctn" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="2000">
                     <h1>Knowledge Journey</h1>
                     <p>The path that shaped my career</p>
                 </div>
                 <div class="timeline">
-                    <div class="timeline-sectn">
+                    <div class="timeline-sectn" data-aos="fade-right" data-aos-offset="300"
+                        data-aos-easing="ease-in-sine" data-aos-duration="600">
                         <div class="row">
-                            <div class="col-md-3">
+                            <div class="col-md-3 col-2">
                                 <div class="dot">
                                     <div class="rectangle-design"></div>
                                 </div>
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-md-6 col-8">
                                 <div class="timeline-cnt">
                                     <h5>Advanced Diploma In UI/UX Design</h5>
                                     <p>Skilz The Learning Hub, Kottakkal</p>
                                 </div>
                             </div>
-                            <div class="col-md-3">
+                            <div class="col-md-3 col-2">
                                 <span>2025</span>
                             </div>
                         </div>
                     </div>
-                    <div class="timeline-sectn">
+                    <div class="timeline-sectn" data-aos="fade-left" data-aos-offset="300" data-aos-duration="600">
                         <div class="row">
-                            <div class="col-md-3">
+                            <div class="col-md-3 col-2">
                                 <div class="dot">
                                     <div class="rectangle-design"></div>
                                 </div>
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-md-6 col-8">
                                 <div class="timeline-cnt">
                                     <h5>B.A English Language And Litrature</h5>
-                                    <p>Grace Valley College of Arts and Science, Kadampuzha, Maravattam</p>
+                                    <p>Grace Valley College of Arts and Science, Kadampuzha</p>
                                 </div>
                             </div>
-                            <div class="col-md-3">
+                            <div class="col-md-3 col-2">
                                 <span>2024</span>
                             </div>
                         </div>
                     </div>
-                    <div class="timeline-sectn">
+                    <div class="timeline-sectn" data-aos="fade-right" data-aos-offset="300"
+                        data-aos-easing="ease-in-sine" data-aos-duration="600">
                         <div class="row">
-                            <div class="col-md-3">
+                            <div class="col-md-3 col-2">
                                 <div class="dot">
                                     <div class="rectangle-design"></div>
                                 </div>
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-md-6 col-8">
                                 <div class="timeline-cnt">
                                     <h5>H.S.S</h5>
                                     <p>Govt Boys Higher Secondary School, Tirur, Malappuram</p>
                                 </div>
                             </div>
-                            <div class="col-md-3">
+                            <div class="col-md-3 col-2">
                                 <span>2020</span>
                             </div>
                         </div>
                     </div>
-                    <div class="timeline-sectn">
+                    <div class="timeline-sectn" data-aos="fade-left" data-aos-offset="300" data-aos-duration="600">
                         <div class="row">
-                            <div class="col-md-3">
+                            <div class="col-md-3 col-2">
                                 <div class="dot">
                                     <div class="rectangle-design"></div>
                                 </div>
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-md-6 col-8">
                                 <div class="timeline-cnt">
                                     <h5>S.S.L.C</h5>
                                     <p>P.K.M.M HIgher Secondary School, Edarikkode, Malappuram</p>
                                 </div>
                             </div>
-                            <div class="col-md-3">
+                            <div class="col-md-3 col-2">
                                 <span>2018</span>
                             </div>
                         </div>
@@ -285,14 +300,14 @@
     <section id="service">
         <div class="container">
             <div class="service-container">
-                <div class="srvc-sectn">
+                <div class="srvc-sectn" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-duration="900">
                     <h1>My Service Palette</h1>
                     <p>A collection of services crafted to bring your ideas to life</p>
                 </div>
                 <div class="service-box">
-                    <div class="row">
+                    <div class="row g-3">
                         <div class="col-md-6">
-                            <div class="border-bg">
+                            <div class="border-bg" data-aos="fade-up-right" data-aos-duration="900">
                                 <div class="box">
                                     <img src="images/web.png" alt="">
                                     <div class="box-desc">
@@ -306,7 +321,7 @@
                         </div>
                         <div class="col-md-6">
                             <div class="box-right">
-                                <div class="border-bg">
+                                <div class="border-bg" data-aos="fade-left" data-aos-duration="900">
                                     <div class="box">
                                         <img class="srvc-img" src="images/app.png" alt="">
                                         <div class="box-desc">
@@ -319,7 +334,7 @@
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <div class="border-bg">
+                            <div class="border-bg" data-aos="fade-up-right" data-aos-duration="900">
                                 <div class="box">
                                     <img class="srvc-img" src="images/ui ux.png" alt="">
                                     <div class="box-desc">
@@ -332,7 +347,7 @@
                         </div>
                         <div class="col-md-6">
                             <div class="box-right">
-                                <div class="border-bg">
+                                <div class="border-bg" data-aos="fade-up-left" data-aos-duration="900">
                                     <div class="box">
                                         <img class="srvc-img" src="images/research.png" alt="">
                                         <div class="box-desc">
@@ -345,7 +360,7 @@
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <div class="border-bg">
+                            <div class="border-bg" data-aos="fade-up-right" data-aos-duration="900">
                                 <div class="box">
                                     <img class="srvc-img" src="images/prototype.png" alt="">
                                     <div class="box-desc">
@@ -366,32 +381,35 @@
     <section id="portfolio">
         <div class="container">
             <div class="potfolio-container">
-                <div class="portfolio-sectn">
+                <div class="portfolio-sectn" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-duration="900">
                     <h1>Recent Portfolio Pieces</h1>
                     <p>Dive into my most recent and relevent creations</p>
                 </div>
                 <div class="portfolio-items">
-                    <div class="row">
+                    <div class="row g-3">
                         <div class="col-md-6">
-                            <div class="portfolio-1"></div>                                                        
-                        </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-rectangle">
-                                <img class="pr-img2" src="images/ai-web.png" alt="">
+                            <div class="portfolio-1"  data-aos="fade-up-right" data-aos-duration="900">
+                                <img src="images/reen-web.png" alt="">
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <div class="portfolio-3"></div>                           
+                            <div class="portfolio-1"  data-aos="fade-up-right"  data-aos-duration="900">
+                                <img src="images/ai-web.png" alt="">
+                            </div>
                         </div>
                         <div class="col-md-6">
-                            <div class="portfolio-rectangle">
-                                <img class="pr-img4" src="images/doctor-web.png" alt="">
+                            <div class="portfolio-1"  data-aos="fade-up-right"  data-aos-duration="900">
+                                <img src="images/pizza add.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-1"  data-aos="fade-up-right"  data-aos-duration="900">
+                                <img src="images/doctor-web.png" alt="">
                             </div>
                         </div>
                     </div>
                     <div class="button-container">
-                        <div class="circle"></div>
-                        <a class="explore-btn" href="">Explore</a>
+                        <a class="explore-btn"  href="">Explore</a>
                     </div>
                 </div>
             </div>
@@ -420,19 +438,19 @@
     <!-- footer -->
     <section id="footer">
         <div class="container">
-            <div class="ftr-container">
+            <div class="ftr-container" data-aos="fade-down" data-aos-duration="1000">
                 <div class="ftr-cnt">
                     <div class="row">
                         <div class="col-md-6">
-                            <div class="ftr-desc">
+                            <div class="ftr-desc" >    
                                 <p>Get in Touch</p>
                                 <h2>Let's Build Something Cool</h2>
                                 <span>Have a project in mind? Let's work together to bring your vision to life.</span>
                                 <hr class="divider-3">
                                 <div class="contact-info">
                                     <div class="call-info">
-                                        <div class="call-img">
-                                            <img src="images/call.png" alt="">
+                                        <div class="call">
+                                            <a href="tel:+918086952072"><i class="fa-solid fa-phone"></i></a>
                                         </div>
                                         <div>
                                             <p>Phone No</p>
@@ -441,8 +459,9 @@
                                     </div>
                                     <div class="email-info">
                                         <div class="email-rctngl">
-                                            <div class="email-img">
-                                                <img src="images/email.png" alt="">
+                                            <div class="email">
+                                                <a href="mailto:fathimasalva37@gmail.com"><i
+                                                        class="fa-solid fa-envelope"></i></a>
                                             </div>
                                         </div>
                                         <div>
@@ -451,8 +470,8 @@
                                         </div>
                                     </div>
                                     <div class="location-info">
-                                        <div class="location-img">
-                                            <img src="images/location.png" alt="">
+                                        <div class="location">
+                                            <a href=""><i class="fa-solid fa-location-dot"></i></a>
                                         </div>
                                         <div>
                                             <p>Address</p>
@@ -460,20 +479,11 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="social-media">
-                                    <p>Social Info</p>
-                                    <div class="social-icons2">
-                                        <i class="fa-brands fa-linkedin-in"></i>
-                                        <i class="fa-brands fa-whatsapp"></i>
-                                        <i class="fa-brands fa-instagram"></i>
-                                        <i class="fa-brands fa-behance"></i>
-                                    </div>
-                                </div>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="contact-container">
-                                <div class="contact-section">
+                                <div class="contact-section" >
                                     <form class="contact-form" action="">
                                         <div class="form-row">
                                             <label for="first name">First Name</label>
@@ -498,23 +508,13 @@
                                             <label for="message">Message</label>
                                             <textarea name="message" id="message"></textarea>
                                         </div>
-
-
                                         <button type="submit">Send Message</button>
                                     </form>
-
                                 </div>
-
                             </div>
-
-
                         </div>
-
                     </div>
-
                 </div>
-
-
             </div>
         </div>
     </section>
@@ -526,20 +526,16 @@
                 <div class="footer-logo">
                     <img src="images/logo.png" alt="">
                 </div>
-                <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">About me</a></li>
-                    <li><a href="">Education</a></li>
-                    <li><a href="">Services</a></li>
-                    <li><a href="">Portfolio</a></li>
-                    <li><a href="">Contact me</a></li>
-                </ul>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/fathima-salva-p/"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://wa.me/8086952072"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="https://instagram.com/_.salva.hzn"><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""> <i class="fa-brands fa-behance"></i></a>
+                </div>
                 <div class="footer-cpy">
                     <p>Copyright © 2025 Salva. All Right Reserved by </p>
-
                 </div>
             </div>
-
         </div>
     </section>
 
@@ -629,6 +625,10 @@
 
     <script src="js/script.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
