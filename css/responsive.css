@@ -1,6 +1,7 @@
 @media screen and (max-width:1299px) {}
 
 @media screen and (max-width:1024px) {
+
     .my-image {
         margin-left: 10px;
         max-width: 87%;
@@ -84,6 +85,12 @@
     img.circle-btn {
         margin-left: -41px;
     }
+    .about-container{
+    max-width: 119%;
+    top: 177px;
+    left: 20px;
+}
+   
 }
 
 
@@ -132,14 +139,14 @@
         text-align: center;
     }
 
-    section.banner {
+    section #banner {
         width: 102%;
         /* height: 59%; */
         background-size: cover;
         background-position: center top;
     }
 
-    section.banner {
+    section#banner {
         height: 954px;
     }
 
@@ -308,10 +315,16 @@
         height: 954px;
     }
 
-    .banner {
+    #banner {
         height: 912px;
     }
+    .about-container{
+    max-width: 96%;
+    left: 82px;
+    top: 162px;
 }
+    }
+
 
 
 
@@ -328,17 +341,15 @@
         left: 109px;
     }
 
-}
-
-
-@media screen and (max-width:425px) {
-    .srvc-sectn {
+    .srvc-sectn p {
         text-align: center;
     }
 
     .rectangle-design {
         width: 40px;
         height: 40px;
+        position: relative;
+        left: 15px;
     }
 
     .timeline-cnt h5 {
@@ -348,81 +359,233 @@
     .timeline-cnt p {
         font-size: 10px;
     }
+
     .timeline-sectn span {
-    font-size: 12px;
-}
-.knwldg-container {
-    position: relative;
-    top: 250px;
-}
-.service-container {
-    position: relative;
-    top: 350px;
-}
-.potfolio-container {
+        font-size: 12px;
+    }
+
+    .knwldg-container {
         position: relative;
         top: 250px;
     }
+
+    .service-container {
+        position: relative;
+        top: 350px;
+
+    }
+
+    .potfolio-container {
+        position: relative;
+        top: 250px;
+    }
+
     .digital-container {
         margin-top: 350px;
     }
-    .digitl-cnt{
+
+    .digitl-cnt {
         height: 33vh;
     }
+
     .digitl-cnt h2 {
-    font-size: 25px;
+        font-size: 25px;
+    }
+
+    .digitl-cnt a {
+        font-size: 10px;
+    }
+
+    .contact-form {
+        gap: 15px;
+    }
+
+    .hero h3 {
+        text-align: center;
+
+    }
+
+    img.circle-btn {
+        position: relative;
+        left: 330px;
+        /* right: 7px; */
+        bottom: 69px;
+    }
+
+    .hero h1 {
+        font-size: 43px;
+    }
+
+    .hero h3 {
+        font-size: 32px;
+    }
+
+    h3.about-title {
+        font-size: 23px;
+        text-align: center;
+    }
+
+    p.about-desc {
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .about-label {
+        padding: 8px 27px;
+        width: 119px;
+        font-size: 14px;
+    }
+
+    .skills-sectn p {
+        font-size: 14px;
+    }
+
+    .knwldg-sctn p {
+        font-size: 14px;
+    }
+
+    .srvc-sectn p {
+        font-size: 14px;
+    }
+
+    .potfolio-sectn p {
+        font-size: 14px;
+    }
+
+    .service-container {
+        position: relative;
+        top: 244px;
+    }
+
+    .skills-sectn h1 {
+        font-size: 30px;
+    }
+
+    .tool-box {
+        width: 120px;
+        height: 120px;
+    }
+
+    .form-row {
+        font-size: 12px;
+    }
+
+    .form-row input,
+    .form-row textarea {
+        width: 10px;
+    }
+
+    .contact-form {
+        width: 298px;
+    }
+    .tool-box img{
+        max-width: 50px;
+    }
+
 }
-.digitl-cnt a {
-    font-size: 10px;
-}
-.contact-form{
-    gap: 15px;
-}
-.hero h3{
-    text-align: center;
-    
-}
-img.circle-btn {
-    position: relative;
-    left: 330px;
-    /* right: 7px; */
-    bottom: 69px;
-}
-.hero h1 {
-    font-size: 43px;
-}
-.hero h3 {
-    font-size: 32px;
-}
-h3.about-title {
-    font-size: 23px;
-    text-align: center;
-}
-p.about-desc {
-    text-align: center;
-    font-size: 12px;
-}
-.about-label {
-    padding: 8px 27px;
-    width: 119px;
-    font-size: 14px;
-}
-.skills-sectn p {
-    font-size: 14px;
-}
-.knwldg-sctn p{
-    font-size: 14px;
-}
-.srvc-sectn p{
-    font-size: 14px;
-} 
-.potfolio-sectn p{
-    font-size: 14px;
-}
-.service-container {
-    position: relative;
-    top: 244px;
-}
+
+
+
+@media screen and (max-width:425px) {
+    img.about-image.scroll-hidden {
+        display: none;
+    }
+
+    /* .about-container {
+        max-width: 103%;
+        position: relative;
+        left: 61px;
+        top: 300px;
+    } */
+    .skills-sectn p {
+        font-size: 13px;
+    }
+
+    img.srvc-img {
+        width: 11%;
+    }
+
+    .box-desc h3 {
+        font-size: 20px;
+    }
+
+    .box p {
+        font-size: 13px;
+    }
+
+    .portfolio-1 img {
+        width: 100%;
+        height: 82%;
+        gap: 0;
+    }
+
+    .portfolio-sectn p {
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .srvc-sectn p {
+        font-size: 12px;
+    }
+
+    .knwldg-sctn p {
+        font-size: 12px;
+    }
+
+    .knwldg-sctn h1 {
+        font-size: 25px;
+    }
+
+    .srvc-sectn h1 {
+        font-size: 25px;
+    }
+
+    .skills-sectn p {
+        font-size: 12px;
+    }
+
+    .skills-sectn h1 {
+        font-size: 25px;
+    }
+
+    img.circle-btn {
+        position: relative;
+        left: 298px;
+        /* right: 7px; */
+        bottom: 69px;
+    }
+
+    a.explore-btn {
+        /* top: inherit; */
+        position: relative;
+        top: -55px;
+        /* bottom: 93px; */
+    }
+
+    .digital-container {
+        margin-top: 242px;
+    }
+
+    .ftr-desc h2 {
+        font-size: 32px;
+    }
+
+    .border-bg {
+        width: 316px;
+    }
+
+    .form-row {
+        font-size: 12px;
+    }
+
+    .form-row input,
+    .form-row textarea {
+        width: 10px;
+    }
+
+    .contact-form {
+        width: 298px;
+    }
 
 }
 
@@ -430,40 +593,22 @@ p.about-desc {
 
 @media screen and (max-width:375px) {
     .skills-sectn h1 {
-    font-size: 36px;
-}
-.rectangle-design {
-    width: 40px;
-    height: 40px;
-    position: relative;
-    left: 9px;
-    top: 10px;
-}
-.srvc-sectn h1{
-     font-size: 36px;
-}
-.portfolio-sectn h1{
-     font-size: 36px;
-}
+        font-size: 30px;
+    }
 
-.portfolio-sectn p{
-    text-align: center;
-}
-.ftr-desc h2 {
-    font-size: 33px;
-}
-.ftr-desc p {
-    font-size: 14px;
-}
-.ftr-desc span {
-    max-width: 288px;
-    font-size: 12px;
-}
-.tool-box{
-    width: 132px;
-    height: 132px;
-}
-.tool-box img{
-    width: 50px;
-}
+    .tool-box {
+        width: 120px;
+        height: 120px;
+    }
+
+    .portfolio-sectn {
+
+        font-size: 13px;
+    }
+
+    .srvc-sectn p {
+        font-size: 13px;
+    }
+
+
 }

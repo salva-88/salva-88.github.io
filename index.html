@@ -20,6 +20,8 @@
         href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Judson:ital,wght@0,400;0,700;1,400&display=swap"
         rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 </head>
 
 <body>
@@ -32,25 +34,30 @@
                 <div class="header2-cnt">
                     <nav>
                         <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">About me</a></li>
-                            <li><a href="#">Skills</a></li>
-                            <li><a href="#">Education</a></li>
-                            <li><a href="#">Services</a></li>
-                            <li><a href="#">Portfolio</a></li>
-                            <li><a href="#">Contact me</a></li>
+                            <li><a class="underline-btn" href="#banner">Home</a></li>
+                            <li><a class="underline-btn" href="#about">About me</a></li>
+                            <li><a class="underline-btn" href="#skills">Skills</a></li>
+                            <li><a class="underline-btn" href="#knowledge">Education</a></li>
+                            <li><a class="underline-btn" href="#service">Services</a></li>
+                            <li><a class="underline-btn" href="#portfolio">Portfolio</a></li>
+                            <li><a class="underline-btn" href="#footer">Contact me</a></li>
                         </ul>
                     </nav>
                 </div>
+
                 <div>
-                    <a class="talk-btn" href="#">Let's talk</a>
+                    <div class="button-container">
+                        <a href="#footer"><button class="rainbow-btn">Let's Talk</button></a>
+                    </div>
+
+
                     <div class="toggle-bt">
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                        </div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
                 </div>
-                
+
 
             </div>
 
@@ -58,8 +65,9 @@
     </header>
 
 
+
     <!-- hero -->
-    <section class="banner">
+    <section id="banner">
         <div class="container">
             <div class="row">
                 <div class="col-md-5">
@@ -75,7 +83,7 @@
                                     <img src="images/figma.png" alt="">
                                     <img src="images/html1.png" alt="">
                                 </div>
-                                <button class="hire-btn">Hire Me</button>
+                                <a href="#footer-bottom"><button class="hire-btn">Hire Me</button></a>
                             </div>
 
                     </div>
@@ -94,7 +102,7 @@
     <!-- about -->
     <section id="about">
         <div class="container">
-            <div class="about-container"  data-aos="zoom-in" data-aos-duration="2000">
+            <div class="about-container" data-aos="zoom-in" data-aos-duration="2000">
                 <div class="">
                     <div class="row">
                         <div class="col-md-6">
@@ -115,7 +123,8 @@
                                     technologies.
                                 </p>
                                 <a class="dwnld-btn" href="#">Download CV <img src="images/arrow.png" alt=""></a>
-                                <a class="email-tag" href=""><img class="email-icon" src="images/email.png"
+                                 
+                                <a class="email-tag" href="mailto:fathimasalva37@gmail.com"><img class="email-icon" src="images/email.png"
                                         alt="">fathimasalva37@gmail.com
                                 </a>
                                 <div class="social-icons">
@@ -138,20 +147,20 @@
     <!-- skills -->
     <section id="skills">
         <div class="container">
-            <div class="skills-container" >
+            <div class="skills-container">
                 <div class="sprk-img">
                     <img src="images/spark image.png" alt="">
                     <img src="images/spark image2.png" alt="">
                 </div>
-                <div class="skills-sectn" data-aos="fade-right"data-aos-duration="1000">
+                <div class="skills-sectn" data-aos="fade-right" data-aos-duration="1000">
                     <h1>My Digital Toolkit</h1>
                     <p>Every tool use a step towards crafting seamless inspiring digital experiences.</p>
                 </div>
-                <div class="tool-sectn" data-aos="fade-down"  data-aos-easing="linear"data-aos-duration="900">
+                <div class="tool-sectn" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="900">
                     <div class="row g-3">
                         <div class="col-md-4 col-6">
                             <div class="tools">
-                                <div class="tool-box" >
+                                <div class="tool-box">
                                     <img src="images/figma2.png" alt="">
                                 </div>
                                 <p>Figma</p>
@@ -211,7 +220,8 @@
     <section id="knowledge">
         <div class="container">
             <div class="knwldg-container">
-                <div class="knwldg-sctn" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="2000">
+                <div class="knwldg-sctn" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                    data-aos-duration="2000">
                     <h1>Knowledge Journey</h1>
                     <p>The path that shaped my career</p>
                 </div>
@@ -300,7 +310,8 @@
     <section id="service">
         <div class="container">
             <div class="service-container">
-                <div class="srvc-sectn" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-duration="900">
+                <div class="srvc-sectn" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom"
+                    data-aos-duration="900">
                     <h1>My Service Palette</h1>
                     <p>A collection of services crafted to bring your ideas to life</p>
                 </div>
@@ -381,35 +392,36 @@
     <section id="portfolio">
         <div class="container">
             <div class="potfolio-container">
-                <div class="portfolio-sectn" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-duration="900">
+                <div class="portfolio-sectn" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom"
+                    data-aos-duration="900">
                     <h1>Recent Portfolio Pieces</h1>
                     <p>Dive into my most recent and relevent creations</p>
                 </div>
                 <div class="portfolio-items">
                     <div class="row g-3">
                         <div class="col-md-6">
-                            <div class="portfolio-1"  data-aos="fade-up-right" data-aos-duration="900">
-                                <img src="images/reen-web.png" alt="">
+                            <div class="portfolio-1" data-aos="fade-up-right" data-aos-duration="900">
+                                <img id="openpop1" src="images/reen-web.png" alt="">
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <div class="portfolio-1"  data-aos="fade-up-right"  data-aos-duration="900">
+                            <div class="portfolio-1" data-aos="fade-up-right" data-aos-duration="900">
                                 <img src="images/ai-web.png" alt="">
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <div class="portfolio-1"  data-aos="fade-up-right"  data-aos-duration="900">
+                            <div class="portfolio-1" data-aos="fade-up-right" data-aos-duration="900">
                                 <img src="images/pizza add.png" alt="">
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <div class="portfolio-1"  data-aos="fade-up-right"  data-aos-duration="900">
+                            <div class="portfolio-1" data-aos="fade-up-right" data-aos-duration="900">
                                 <img src="images/doctor-web.png" alt="">
                             </div>
                         </div>
                     </div>
                     <div class="button-container">
-                        <a class="explore-btn"  href="">Explore</a>
+                        <a class="explore-btn" href="">Explore</a>
                     </div>
                 </div>
             </div>
@@ -442,7 +454,7 @@
                 <div class="ftr-cnt">
                     <div class="row">
                         <div class="col-md-6">
-                            <div class="ftr-desc" >    
+                            <div class="ftr-desc">
                                 <p>Get in Touch</p>
                                 <h2>Let's Build Something Cool</h2>
                                 <span>Have a project in mind? Let's work together to bring your vision to life.</span>
@@ -483,7 +495,7 @@
                         </div>
                         <div class="col-md-6">
                             <div class="contact-container">
-                                <div class="contact-section" >
+                                <div class="contact-section">
                                     <form class="contact-form" action="">
                                         <div class="form-row">
                                             <label for="first name">First Name</label>
