@@ -45,6 +45,11 @@
         font-size: 30px;
     }
 
+    .circle-btn {
+        left: 341px;
+        bottom: 2px;
+    }
+
     .contact-container {
         margin: auto;
         padding: 28px 10px 10px 10px;
@@ -53,11 +58,9 @@
         position: relative;
         top: 10px;
     }
-
-    /* section.banner {
-    width: 104%;
-} */
 }
+
+
 
 
 
@@ -85,12 +88,13 @@
     img.circle-btn {
         margin-left: -41px;
     }
-    .about-container{
-    max-width: 119%;
-    top: 177px;
-    left: 20px;
-}
-   
+
+    .about-container {
+        max-width: 119%;
+        top: 177px;
+        left: 20px;
+    }
+
 }
 
 
@@ -318,12 +322,17 @@
     #banner {
         height: 912px;
     }
-    .about-container{
-    max-width: 96%;
-    left: 82px;
-    top: 162px;
-}
+
+    .about-container {
+        max-width: 96%;
+        left: 82px;
+        top: 162px;
     }
+
+    img.circle-btn {
+        margin-left: 38px;
+    }
+}
 
 
 
@@ -478,7 +487,8 @@
     .contact-form {
         width: 298px;
     }
-    .tool-box img{
+
+    .tool-box img {
         max-width: 50px;
     }
 

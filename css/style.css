@@ -646,6 +646,7 @@ img.circle-btn {
 }
 .portfolio-1:hover{
     filter: grayscale(0);
+    transform: scale(1.1);
 }
 
 
