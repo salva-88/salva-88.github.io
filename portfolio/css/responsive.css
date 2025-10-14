@@ -1,0 +1,10 @@
+@media screen and (max-width:767px) {
+    .header2-cnt{
+        display: none;
+    }
+}
+@media screen and (max-width:375px) {
+   .box-right {
+    margin-top: 0;
+}
+}
