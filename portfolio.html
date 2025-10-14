@@ -13,6 +13,8 @@
     integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 <body>
     <header class="header">
         <div class="container">
@@ -52,10 +54,10 @@
         <div class="container">
             <div class="hero-content">
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-6 d-flex align-items-center">
                         <div class="hero-cnt">
-                            <h3>Hello, I'm</h3>
-                            <h1>I'm a <span>UI/UX Designer</span><br>Front End Developer</h1>
+                            <h3>Hello, I'm <span class="name">Fathima Shalva.p</span></h3>
+                            <h1>I'm a <span>UI/UX Designer<br>Front End Developer</span></h1>
                             <p>
                                 I'm a designer passionate about creating intuitive and engaging digital experiences.
                                 I'm always learning and experimenting with new design principles and techniques,
@@ -82,7 +84,7 @@
 
     <!-- about -->
 
-    <section id="about">
+    <section id="about" data-aos="zoom-in" data-aos-duration="2000">
         <div class="container">
             <div class="about-cnt">
                 <div class="row align-items-center">
@@ -123,7 +125,7 @@
     <!-- digital toolkit -->
     <section class="toolkit-section py-5">
         <div class="container text-center">
-            <h2 class="fw-bold text-primary mb-3">My Digital Toolkit</h2>
+            <h2 class="fw-bold text-primary mb-">My Digital Toolkit</h2>
             <p class="text-muted mb-5">
                 Every tool I use is a step towards crafting seamless and inspiring digital experiences.
             </p>
@@ -155,7 +157,7 @@
                         </div>
                     </div>
                     <!-- <hr class="divider-1"> -->
-                    <!-- <img class="line" src="portfolio/images/under line.png" alt=""> -->
+                    <!-- <img class="line" src="images/under line.png" alt=""> -->
                     <div class="col-md-4 col-6">
                         <div class="tools">
                             <div class="tool-box">
@@ -181,7 +183,7 @@
                         </div>
                     </div>
                     <!-- <hr class="divider-2"> -->
-                    <!-- <img class="line" src="portfolio/images/under line.png" alt=""> -->
+                    <!-- <img class="line" src="images/under line.png" alt=""> -->
                 </div>
             </div>
         </div>
@@ -189,69 +191,160 @@
 
 
     <!-- service -->
-    <section id="service">
-        <div class="conatiner">
+    <!-- <section id="service">
+        <div class="container">
             <div class="service-heading">
                 <h2 class="fw-bold text-primary mb-3">My Service Palatte</h2>
                 <p class="text-muted mb-5">
                     A Collection of services crafted to bring your ideas to life
                 </p>
+                <div class="box">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="Palatte">
+                                <div class="bg-white">
+                                    <img src="images/web design icon.png" alt="">
+                                    <h5>Web Designing</h5>
+                                    <p>Conducting qualitive and quantitive research to understand user needs,
+                                        behaviours,
+                                        and
+                                        pain points.
+                                    </p>
 
-                <div class="row g-3">
-                    <div class="col-md-6 d-flex justify-content-end">
-                        <div class="Palatte">
-                            <div class="bg-white">
-                                <img src="portfolio/images/web design icon.png" alt="">
-                                <h5>Web Designing</h5>
-                                <p>Conducting qualitive and quantitive research to understand user needs, behaviours,
-                                    and
-                                    pain points.
-                                </p>
+                                </div>
+
 
                             </div>
-
-
                         </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="Palatte">
-                            <div class="bg-white">
-                                <img src="portfolio/images/app design icon.png" alt="">
-                                <h5>Web Designing</h5>
-                                <p>Conducting qualitive and quantitive research to understand user needs, behaviours,
-                                    and
-                                    pain points.
-                                </p>
+                        <div class="col-md-6">
+                            <div class="Palatte">
+                                <div class="bg-white">
+                                    <img src="images/app design icon.png" alt="">
+                                    <h5>Web Designing</h5>
+                                    <p>Conducting qualitive and quantitive research to understand user needs,
+                                        behaviours,
+                                        and
+                                        pain points.
+                                    </p>
+
+                                </div>
+
 
                             </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="Palatte">
+                                <div class="bg-blue">
+                                    <img src="images/ui ux design icon.png" alt="">
+                                    <h5>Web Designing</h5>
+                                    <p>Conducting qualitive and quantitive research to understand user needs,
+                                        behaviours,
+                                        and
+                                        pain points.
+                                    </p>
+                                </div>
 
 
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="Palatte">
+                                <div class="bg-blue">
+                                    <img src="images/user research icon.png" alt="">
+                                    <h5>Web Designing</h5>
+                                    <p>Conducting qualitive and quantitive research to understand user needs,
+                                        behaviours,
+                                        and
+                                        pain points.
+                                    </p>
+
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-md-6 d-flex justify-content-end">
-                        <div class="Palatte">
-                            <div class="bg-blue">
-                                <img src="portfolio/images/ui ux design icon.png" alt="">
-                                <h5>Web Designing</h5>
-                                <p>Conducting qualitive and quantitive research to understand user needs, behaviours,
-                                    and
-                                    pain points.
-                                </p>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+
+    <!-- service -->
+
+    <section id="service">
+        <div class="container">
+            <div class="service-container">
+                <div class="service-heading">
+                    <h2 class="fw-bold text-primary mb-3">My Service Palatte</h2>
+                    <p class="text-muted mb-5">
+                        A Collection of services crafted to bring your ideas to life
+                    </p>
+                </div>
+
+                <div class="service-box">
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <div class="border-bg" data-aos="fade-up-right" data-aos-duration="900">
+                                <div class="box">
+                                    <img src="portfolio/images/web design icon.png" alt="">
+                                    <div class="box-desc">
+                                        <h3>Web Design</h3>
+                                        <p>Conducting qualitive and quantitive research to understand user needs,
+                                            behaviours, and pain points. </p>
+                                    </div>
+                                </div>
                             </div>
 
-
                         </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="Palatte">
-                            <div class="bg-blue">
-                                <img src="portfolio/images/user research icon.png" alt="">
-                                <h5>Web Designing</h5>
-                                <p>Conducting qualitive and quantitive research to understand user needs, behaviours,
-                                    and
-                                    pain points.
-                                </p>
-
+                        <div class="col-md-6">
+                            <div class="box-right">
+                                <div class="border-bg" data-aos="fade-left" data-aos-duration="900">
+                                    <div class="box">
+                                        <img class="srvc-img" src="portfolio/images/app design icon.png" alt="">
+                                        <div class="box-desc">
+                                            <h3>App Design</h3>
+                                            <p>Conducting qualitive and quantitive research to understand user needs,
+                                                behaviours, and pain points. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="border-bg" data-aos="fade-up-right" data-aos-duration="900">
+                                <div class="box">
+                                    <img class="srvc-img" src="portfolio/images/ui ux design icon.png" alt="">
+                                    <div class="box-desc">
+                                        <h3>UI/UX Design</h3>
+                                        <p>Conducting qualitive and quantitive research to understand user needs,
+                                            behaviours, and pain points. </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="box-right">
+                                <div class="border-bg" data-aos="fade-up-left" data-aos-duration="900">
+                                    <div class="box">
+                                        <img class="srvc-img" src="portfolio/images/user research icon.png" alt="">
+                                        <div class="box-desc">
+                                            <h3>User Research</h3>
+                                            <p>Conducting qualitive and quantitive research to understand user needs,
+                                                behaviours, and pain points. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="border-bg" data-aos="fade-up-right" data-aos-duration="900">
+                                <div class="box">
+                                    <img class="srvc-img" src="portfolio/images/web design icon.png" alt="">
+                                    <div class="box-desc">
+                                        <h3>Wireframe Prototype</h3>
+                                        <p>Conducting qualitive and quantitive research to understand user needs,
+                                            behaviours, and pain points. </p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -261,47 +354,157 @@
     </section>
 
     <!-- education -->
-    <section id="education">
+    <section id="knowledge">
         <div class="container">
-            <div class="eduaction-heading">
-                <h2 class="fw-bold text-primary mb-2">Knowledge Journey</h2>
-                <p class="text-muted mb-5"> The path that shaped my career </p>
+            <div class="knwldg-container">
+                <div class="eduaction-heading">
+                    <h2 class="fw-bold text-primary mb-2">Knowledge Journey</h2>
+                    <p class="text-muted mb-5"> The path that shaped my career </p>
+                </div>
+
+                <div class="timeline">
+                    <div class="timeline-sectn" data-aos="fade-right" data-aos-offset="300"
+                        data-aos-easing="ease-in-sine" data-aos-duration="600">
+                        <div class="row">
+                            <div class="col-md-3 col-2">
+                                <div class="dot">
+                                    <div class="rectangle-design"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-8">
+                                <div class="timeline-cnt">
+                                    <h5>Advanced Diploma In UI/UX Design</h5>
+                                    <p>Skilz The Learning Hub, Kottakkal</p>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-2">
+                                <span>2025</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-sectn" data-aos="fade-left" data-aos-offset="300" data-aos-duration="600">
+                        <div class="row">
+                            <div class="col-md-3 col-2">
+                                <div class="dot">
+                                    <div class="rectangle-design"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-8">
+                                <div class="timeline-cnt">
+                                    <h5>B.A English Language And Litrature</h5>
+                                    <p>Grace Valley College of Arts and Science, Kadampuzha</p>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-2">
+                                <span>2023</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-sectn" data-aos="fade-right" data-aos-offset="300"
+                        data-aos-easing="ease-in-sine" data-aos-duration="600">
+                        <div class="row">
+                            <div class="col-md-3 col-2">
+                                <div class="dot">
+                                    <div class="rectangle-design"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-8">
+                                <div class="timeline-cnt">
+                                    <h5>H.S.S</h5>
+                                    <p>Govt Boys Higher Secondary School, Tirur, Malappuram</p>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-2">
+                                <span>2020</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-sectn" data-aos="fade-left" data-aos-offset="300" data-aos-duration="600">
+                        <div class="row">
+                            <div class="col-md-3 col-2">
+                                <div class="dot">
+                                    <div class="rectangle-design"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-8">
+                                <div class="timeline-cnt">
+                                    <h5>S.S.L.C</h5>
+                                    <p>P.K.M.M HIgher Secondary School, Edarikkode, Malappuram</p>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-2">
+                                <span>2018</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
             </div>
-
-            <div class="education">
-
-                <ul class="time_line">
-                    <li style="--accent-color:#41516C" data-aos="zoom-in-right" data-aos-duration="1200">
-                        <div class="date">2025</div>
-                        <div class="title">ADVANCED DIPLOMA IN UI UX</div>
-                        <div class="descr">SKILZ THE LEARNING THE HUB</div>
-                    </li>
-                    <li style="--accent-color:#FBCA3E" data-aos="zoom-in-left" data-aos-duration="1200">
-                        <div class="date">2024</div>
-                        <div class="title">Gracevalley Arts and Science College kadampuzha, Maravattam</div>
-                        <div class="descr">BA English Language and Litrature </div>
-                    </li>
-                    <li style="--accent-color:#E24A68" data-aos="zoom-out-down" data-aos-duration="1200">
-                        <div class="date">2021</div>
-                        <div class="title">G.B.H.S.S TIRUR</div>
-                        <div class="descr">HIGHER SECONDERY SCHOOL</div>
-                    </li>
-                    <li style="--accent-color:#1B5F8C" data-aos="zoom-out-up" data-aos-duration="1200">
-                        <div class="date">2018</div>
-                        <div class="title">P.K.M.M. Edarikkode</div>
-                        <div class="descr">HIGH SCHOOL</div>
-                    </li>
-
-                </ul>
-                <div class="credits"><a target="_blank"
-                        href="https://www.freepik.com/free-vector/infographic-template-with-yearly-info_1252895.htm">
-                    </a></div>
-
-            </div>
-
-        </div>
-
     </section>
+
+    <!-- portfolio -->
+    <section id="portfolio">
+        <div class="container">
+            <div class="potfolio-container">
+                <div class="portfolio-sectn" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom"
+                    data-aos-duration="900">
+                    <div class="porfolio-heading">
+                        <h2 class="fw-bold text-primary mb-2">Recent Portfolio Pieces</h2>
+                        <p class="text-muted mb-5"> The path that shaped my career </p>
+                    </div>
+                </div>
+                <div class="portfolio-items">
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <div class="portfolio-1" data-aos="fade-up-right" data-aos-duration="900">
+                                <img id="openpop1" src="portfolio/images/comtro.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-1" data-aos="fade-up-right" data-aos-duration="900">
+                                <img src="portfolio/images/furniture.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-1" data-aos="fade-up-right" data-aos-duration="900">
+                                <img src="portfolio/images/pizza img.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-1" data-aos="fade-up-right" data-aos-duration="900">
+                                <img src="portfolio/images/comtro app.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="button-container">
+                        <a class="explore-btn" href="">Explore</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- digital -->
+
+    <section id="digital" data-aos="fade-up" data-aos-duration="3000">
+        <div class="">
+            <div class="">
+                <div class="digitl-cnt">
+                    <div class="project-hding">
+                        <h2>Have an idea worth exploring</h2>
+                        <h2>Let’s make greate things together!</h2>
+                    </div>
+
+                    <p>Whether it’s a new brand, website, or app, I’m always excited to collaborate and create
+                        meaningful digital experiences.</p>
+                    <a class="start-btn" href="">Let's Get Started!</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
 
 
 
@@ -330,6 +533,12 @@
 
     <script src="portfolio/js/script.js"></script>
     <script src="portfolio/js/bootstrap.min.js"></script>
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
