@@ -1,10 +1,237 @@
-@media screen and (max-width:767px) {
-    .header2-cnt{
-        display: none;
+@media screen and (max-width:1299px) {}
+
+@media screen and (max-width:1024px) {}
+
+@media screen and (max-width:992px) {
+    .hero-image img {
+        width: 132%;
+        padding-left: 53px;
     }
 }
-@media screen and (max-width:375px) {
-   .box-right {
-    margin-top: 0;
+
+@media screen and (max-width:767px) {
+    .header2-cnt {
+        display: none;
+    }
+
+    .hero {
+        height: auto;
+    }
+
+    .hero-content h3 {
+        text-align: center;
+    }
+
+    .hero-content h1 {
+        text-align: center;
+    }
+
+    .hero-content p {
+        text-align: center;
+    }
+
+    .hero-buttons {
+        justify-content: center;
+    }
+
+    .about-cnt {
+        padding: 79px 56px;
+    }
+
+    .about-img {
+        margin-bottom: 59px;
+    }
+
+    .text-muted {
+        text-align: center;
+    }
+
+    .social-icons {
+        justify-content: center;
+        display: flex;
+    }
+
+    .box-right {
+        margin-top: 0;
+    }
+
+    .about-me h3 {
+        text-align: center;
+    }
+
 }
+
+
+@media screen and (max-width:575px) {
+    .service-heading {
+        margin-bottom: 24px;
+    }
+}
+
+@media screen and (max-width:427px) {
+    .hero-content h1 {
+        font-size: 28px;
+    }
+
+    .hero-content p {
+        font-size: 16px;
+    }
+
+    .hero-content h3 {
+        font-size: 20px;
+    }
+
+    .tool-sectn p {
+        font-size: 14px;
+    }
+
+    .rectangle-design {
+        width: 36px;
+        height: 36px;
+    }
+
+    .timeline-cnt h5 {
+        font-size: 15px;
+    }
+
+    .timeline-cnt p {
+        font-size: 11px;
+    }
+
+    .explore-btn {
+        font-size: 18px;
+    }
+
+    .digitl-cnt h2 {
+        font-size: 22px;
+    }
+
+    .digitl-cnt p {
+        font-size: 14px;
+    }
+
+    .start-btn {
+        font-size: 14px;
+    }
+
+    #digital {
+        padding: 6rem 3rem;
+    }
+
+    .ftr-hding {
+        font-size: 22px;
+    }
+
+    .contact-info .icon-box {
+        padding: 5px 8px;
+    }
+
+    .contact-info p {
+        font-size: 13px;
+    }
+
+    .btn-submit {
+        font-size: 13px;
+    }
+
+    .contact-form .form-label {
+        font-size: 14px;
+    }
+
+    .name-logo img {
+        width: 74%;
+    }
+
+    .about-img {
+        width: 100%;
+    }
+
+    .box-desc h3 {
+        font-size: 20px;
+    }
+
+    .box p {
+        font-size: 14px;
+    }
+
+    .tool-box {
+        width: 134px;
+        height: 134px;
+    }
+
+    .tool-box img {
+        width: 49%;
+    }
+
+    .footer-left img {
+        width: 64%;
+    }
+
+    .footer-links {
+        font-size: 12px;
+    }
+
+    .footer-right {
+        font-size: 10px;
+    }
+
+    .hero-cnt {
+        /* margin-top: 109px; */
+        padding-top: 85px;
+    }
+}
+
+
+
+@media screen and (max-width:376px) {
+    .box-right {
+        margin-top: 0;
+    }
+
+    .hero-cnt {
+        /* margin-top: 109px; */
+        padding-top: 84px;
+    }
+
+    .hero-buttons {
+        font-size: 14px;
+    }
+
+    .hero-buttons {
+        font-size: 14px;
+    }
+
+    a.btn-secondary {
+        padding: 13px 27px;
+    }
+
+    a.btn-outline {
+        padding: 13px 17px;
+    }
+
+    .text-muted {
+        font-size: 13px;
+    }
+
+    .about-me h3 {
+        font-size: 20px;
+    }
+
+    .btn-primary {
+        font-size: 13px;
+    }
+
+    .rectangle-design {
+        width: 31px;
+        height: 31px;
+    }
+
+    .rectangle-box {
+        padding: 0px 14px;
+    }
+
+    .timeline-sectn {
+        padding: 0px 12px;
+    }
+
 }
