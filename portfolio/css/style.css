@@ -56,7 +56,9 @@ nav ul li a {
   box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
   padding: 7px 20px;
+  backdrop-filter: blur(3px);
 }
+
 
 .talk-btn {
   background: rgba(35, 55, 80, 1);
@@ -200,6 +202,8 @@ a.btn-outline {
   background: rgba(186, 198, 213, 1);
 
 }
+
+
 
 /* about */
 .btn-primary {

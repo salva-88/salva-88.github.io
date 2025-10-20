@@ -44,6 +44,7 @@
 
     .text-muted {
         text-align: center;
+        font-size: 13px;
     }
 
     .social-icons {
@@ -58,6 +59,12 @@
     .about-me h3 {
         text-align: center;
     }
+
+    .button-container {
+        display: none;
+    }
+    
+  
 
 }
 
@@ -74,11 +81,15 @@
     }
 
     .hero-content p {
-        font-size: 16px;
+        font-size: 13px;
     }
 
     .hero-content h3 {
         font-size: 20px;
+    }
+
+    .text-muted {
+        font-size: 13px;
     }
 
     .tool-sectn p {
