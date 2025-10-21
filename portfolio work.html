@@ -5,11 +5,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="portfolio/css/bootstrap.min.css">
     <link rel="stylesheet" href="portfolio/css/style.css">
     <link rel="stylesheet" href="portfolio/css/responsive.css">
 </head>
 
 <body>
+
+    <!-- loading -->
+    <div id="page-loader">
+        <div class="dots-loader">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+
+    <!-- HEADER -->
     <header class="header">
         <div class="container">
             <div class="header-cnt">
@@ -36,15 +48,83 @@
                         <a href="#footer"><button class="talk-btn">Let's Talk</button></a>
                     </div>
                 </div>
-
-
             </div>
-
-        </div>
-
         </div>
     </header>
 
+
+
+    <!-- works -->
+    <section>
+        <div class="container">
+            <div class="work-heading">
+                <h1>Explore My Creative Portfolio</h1>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="works">
+        <div class="container">
+            <div>
+                <div class="row g-5">
+                    <div class="col-md-6">
+                        <div class="portfolio-1"> 
+                             <img src="portfolio/images/ai-web 1.png" alt="">
+
+                        </div>
+                       
+                    </div>
+                    <div class="col-md-6">
+                        <div class="portfolio-1">
+                            <img src="portfolio/images/doctor-web 1.png" alt="">
+
+                        </div>                      
+                    </div>
+                    <div class="col-md-6">
+                        <div class="portfolio-1">
+                            <img src="portfolio/images/reen-web 1.png" alt="">
+
+                        </div>                      
+                    </div>
+                     <div class="col-md-6">
+                        <div class="portfolio-1">
+                            <img src="portfolio/images/zanpay web.png" alt="">
+
+                        </div>                      
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+
+
+    <!-- page-loader -->
+    <script>
+        window.addEventListener("load", function () {
+            const loader = document.getElementById("page-loader");
+
+            // Wait 2s before fade starts
+            setTimeout(() => {
+                loader.style.opacity = "0";
+                loader.style.transition = "opacity 0.5s ease";
+                setTimeout(() => {
+                    loader.style.display = "none";
+                }, 500);
+            }, 1000); // loader stays visible for 2s before fade
+        });
+    </script>
+
+
+
+    <script src="portfolio/js/script.js"></script>
+    <script src="portfolio/js/bootstrap.min.js"></script>
 </body>
 
 </html>

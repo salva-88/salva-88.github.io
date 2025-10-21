@@ -16,6 +16,17 @@
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 <body>
+
+    <!-- loading -->
+    <div id="page-loader">
+        <div class="dots-loader">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+
+    <!-- header -->
     <header class="header">
         <div class="container">
             <div class="header-cnt">
@@ -34,7 +45,7 @@
                             <li><a class="underline-btn" href="#contact">Contact me</a></li>
                         </ul>
                     </nav>
-                    
+
                 </div>
 
                 <div>
@@ -42,7 +53,7 @@
                         <a href="#footer"><button class="talk-btn">Let's Talk</button></a>
                     </div>
                 </div>
-                
+
 
             </div>
 
@@ -464,7 +475,8 @@
                     <div class="row g-3 portfolio-items">
                         <div class="col-md-6">
                             <div class="portfolio-1" data-aos="fade-up-right" data-aos-duration="900">
-                                <a href="https://salva-88.github.io/comtro/index.html"><img id="openpop1" src="portfolio/images/comtro.png" alt=""></a>
+                                <a href="https://salva-88.github.io/comtro/index.html"><img id="openpop1"
+                                        src="portfolio/images/comtro.png" alt=""></a>
                             </div>
                         </div>
                         <div class="col-md-6">
@@ -479,7 +491,8 @@
                         </div>
                         <div class="col-md-6">
                             <div class="portfolio-1" data-aos="fade-up-right" data-aos-duration="900">
-                                <a href="portfolio/images/comtro app design.png"><img src="portfolio/images/comtro app.png" alt=""></a>
+                                <a href="portfolio/images/comtro app design.png"><img
+                                        src="portfolio/images/comtro app.png" alt=""></a>
                             </div>
                         </div>
                     </div>
@@ -655,6 +668,22 @@
 
 
 
+
+    <!-- page-loader -->
+    <script>
+        window.addEventListener("load", function () {
+            const loader = document.getElementById("page-loader");
+
+            // Wait 2s before fade starts
+            setTimeout(() => {
+                loader.style.opacity = "0";
+                loader.style.transition = "opacity 0.5s ease";
+                setTimeout(() => {
+                    loader.style.display = "none";
+                }, 500);
+            }, 1000); // loader stays visible for 2s before fade
+        });
+    </script>
 
 
 
