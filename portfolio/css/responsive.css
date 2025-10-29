@@ -60,13 +60,46 @@
         text-align: center;
     }
 
-    .button-container {
+    .connect-btn {
         display: none;
     }
-    
-  
+     .header2-cnt {
+    position: absolute;
+    top: 70px;
+    right: 0;
+    background: white;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    display: none;
+  }
 
+  .header2-cnt.active {
+    display: block;
+  }
+
+  .header2-cnt ul {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .header2-cnt ul li {
+    margin: 10px 0;
+    text-align: center;
+  }
+
+  .menu-toggle {
+    display: flex;
+  }
+
+  .button-container {
+    display: none; /* Hide Let's Talk on small screen if needed */
+  }
 }
+
+
+
+
 
 
 @media screen and (max-width:575px) {
@@ -189,6 +222,17 @@
     .hero-cnt {
         /* margin-top: 109px; */
         padding-top: 85px;
+    }
+
+    .work-heading h1 {
+        font-size: 27px;
+    }
+
+    .about-me {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 }
 

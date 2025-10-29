@@ -302,6 +302,12 @@ transition: all 0.3s ease;
 #about {
   margin-bottom: 69px;
 }
+/* .about-me{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+
 
 
 .text-primary {
@@ -340,6 +346,9 @@ transition: all 0.3s ease;
 
 }
 
+.text-muted{
+  margin-bottom: 100px;
+}
 .tool-sectn {
   max-width: 1078px;
   margin: auto;
@@ -474,10 +483,11 @@ transition: all 0.3s ease;
 }
 
 .service-heading {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
 }
 
 #service {
@@ -868,3 +878,33 @@ transition: all 0.3s ease;
   font-weight: 600;
   color: #0F2232;
 }
+
+/* Hide toggle button on desktop */
+/* .menu-toggle {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 25px;
+  height: 18px;
+  cursor: pointer;
+}
+
+.menu-toggle span {
+  display: block;
+  height: 3px;
+  width: 100%;
+  background: #333;
+  border-radius: 2px;
+  transition: all 0.3s ease;
+}
+
+/* Toggle animation */
+.menu-toggle.active span:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+.menu-toggle.active span:nth-child(2) {
+  opacity: 0;
+}
+.menu-toggle.active span:nth-child(3) {
+  transform: rotate(-45deg) translate(5px, -5px);
+} */
