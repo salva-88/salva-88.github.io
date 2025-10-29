@@ -63,38 +63,71 @@
     .connect-btn {
         display: none;
     }
-     .header2-cnt {
-    position: absolute;
-    top: 70px;
-    right: 0;
-    background: white;
-    width: 200px;
-    border-radius: 10px;
-    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
-    display: none;
-  }
 
-  .header2-cnt.active {
-    display: block;
-  }
+    .header2-cnt {
+        position: absolute;
+        top: 70px;
+        right: 0;
+        background: white;
+        width: 200px;
+        border-radius: 10px;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+        display: none;
+    }
 
-  .header2-cnt ul {
-    flex-direction: column;
-    padding: 10px;
-  }
+    .header2-cnt.active {
+        display: block;
+    }
 
-  .header2-cnt ul li {
-    margin: 10px 0;
-    text-align: center;
-  }
+    .header2-cnt ul {
+        flex-direction: column;
+        padding: 10px;
+    }
 
-  .menu-toggle {
-    display: flex;
-  }
+    .header2-cnt ul li {
+        margin: 10px 0;
+        text-align: center;
+    }
 
-  .button-container {
-    display: none; /* Hide Let's Talk on small screen if needed */
-  }
+    .menu-toggle {
+        display: flex;
+    }
+
+
+
+    /*  */
+    .hamburger {
+        display: flex;
+    }
+
+    #nav-menu {
+        display: none;
+    }
+
+    #nav-menu.active {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        /* make it overlay */
+        top: 80px;
+        /* just below header */
+        left: 0;
+        width: 100%;
+        height: auto;
+        /* grows with content */
+        background: #ffffff;
+        box-shadow: 0px 6px 16px #7b7b7b;
+        padding: 20px 0;
+        z-index: 999;
+    }
+
+    .hamburger {
+        position: relative;
+        left: 168px;
+        font-size: 28px;
+    }
 }
 
 
@@ -225,7 +258,7 @@
     }
 
     .work-heading h1 {
-        font-size: 27px;
+        font-size: 24px;
     }
 
     .about-me {
@@ -233,6 +266,19 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
+    }
+
+    .work-heading {
+        display: flex;
+        justify-content: center;
+        margin-top: 161px;
+        margin-bottom: 70px;
+    }
+
+    .hamburger {
+        position: relative;
+        left: 125px;
+        font-size: 28px;
     }
 }
 
@@ -287,6 +333,12 @@
 
     .timeline-sectn {
         padding: 0px 12px;
+    }
+
+    .hamburger {
+        position: relative;
+        left: 98px;
+        font-size: 28px;
     }
 
 }

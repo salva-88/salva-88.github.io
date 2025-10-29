@@ -33,6 +33,10 @@
                 <div class="name-logo">
                     <img src="portfolio/images/logo.png" alt="">
                 </div>
+                <!-- Hamburger Icon -->
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
 
                 <!-- Toggle Button (Hamburger) -->
                 <!-- <div class="menu-toggle" id="menu-toggle">
@@ -85,16 +89,18 @@
                 <div class="row">
                     <div class="col-md-6 d-flex align-items-center">
                         <div class="hero-cnt">
-                            <h3>Hello, I'm <span class="name">Fathima Shalva.p</span></h3>
-                            <h1>I'm a <span>UI/UX Designer<br>Front End Developer</span></h1>
-                            <p>
+                            <h3 class="type">Hello, I'm <span class="name">Fathima Shalva.p</span></h3>
+                            <h1 class="typewriter">I'm a 
+                                <span data-text="UI/UX Designer., Front End Developer"></span>
+                            </h1>
+                            <p data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="2000">
                                 I'm a designer passionate about creating intuitive and engaging digital experiences.
                                 I'm always learning and experimenting with new design principles and techniques,
                                 and constantly seeking new challenges and opportunities to improve my skills.
                             </p>
                             <div class="hero-buttons">
                                 <a href="#contact" class="btn-secondary">Hire Me</a>
-                                <a href="#" class="btn-outline">See Projects</a>
+                                <a href="#portfolio" class="btn-outline">See Projects</a>
                             </div>
 
                         </div>
@@ -682,7 +688,24 @@
 
 
 
+    <!-- toggle-btn -->
+    <script>
+        const hamburger = document.querySelector(".hamburger");
+        const navLinks = document.querySelector("#nav-menu");
+        const icon = hamburger.querySelector("i");
 
+        hamburger.addEventListener("click", () => {
+            navLinks.classList.toggle("active");
+
+            if (icon.classList.contains("fa-bars")) {
+                icon.classList.remove("fa-bars");
+                icon.classList.add("fa-times");
+            } else {
+                icon.classList.remove("fa-times");
+                icon.classList.add("fa-bars");
+            }
+        });
+    </script>
 
 
     <!-- page-loader -->
