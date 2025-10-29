@@ -342,3 +342,10 @@
     }
 
 }
+
+@media screen and (max-width:368px) {
+    .hero-content h3 {
+        font-size: 19px;
+    }
+
+}
