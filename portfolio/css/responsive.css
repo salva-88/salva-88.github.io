@@ -349,3 +349,10 @@
     }
 
 }
+@media (min-width: 321px) and (max-width: 481px) {
+    .hamburger {
+    position: relative;
+    left: 122px;
+    font-size: 28px;
+}
+}
