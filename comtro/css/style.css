@@ -1378,19 +1378,18 @@ hr {
 /* Toggle button (visible on mobile) */
 .menu-toggle {
     position: fixed;
-    top: 22px;
-    right: 22px;
+    top: 45px;
+    right: 43px;
     display: none;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    width: 36px;
-    height: 28px;
+    width: 31px;
+    height: 20px;
     background: transparent;
     border: none;
     cursor: pointer;
     z-index: 3001;
-    /* higher than mobile nav */
 }
 
 .menu-toggle span {
@@ -1516,6 +1515,7 @@ hr {
 }
 
 .mobile-nav-overlay.open {
-  display: block;
-  background: rgba(0, 0, 0, 0.5); /* semi-transparent overlay */
+    display: block;
+    background: rgba(0, 0, 0, 0.5);
+    /* semi-transparent overlay */
 }
