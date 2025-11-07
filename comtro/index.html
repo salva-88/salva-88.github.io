@@ -22,12 +22,13 @@
 <body>
     <div class="smooth-wrapper">
         <div class="smooth-content">
-            <header>
+            <header class="header">
                 <div class="container">
                     <div class="header-cnt">
                         <div>
                             <img src="images/comtro-logo.png" alt="">
                         </div>
+
                         <div class="header-nav">
                             <nav class="desktop-nav">
                                 <ul>
@@ -39,6 +40,11 @@
                                     <li><a class="underline-btn" href="#why-comtro">Why Comtro</a></li>
                                 </ul>
                             </nav>
+                            <div class="menu-toggle" id="menu-toggle">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
 
                         </div>
                         <div class="contact-btn">
@@ -46,9 +52,23 @@
 
                         </div>
 
+
+
                     </div>
                 </div>
             </header>
+            <div class="mobile-nav-overlay"></div>
+            <div class="mobile-nav" id="mobile-nav">
+                <ul>
+                    <li><a href="#banner">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#app-work">How It Works</a></li>
+                    <li><a href="#demo">Demo</a></li>
+                    <li><a href="#why-comtro">Why Comtro</a></li>
+                    <li><a href="#footer">Contact</a></li>
+                </ul>
+            </div>
 
             <div class="sticky-btns">
                 <a href="" class="sticky-btn whatsapp" target="_blank">
@@ -815,7 +835,7 @@
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollSmoother.min.js"></script>
     <script>
         ScrollSmoother.create({
-            smooth: 2,
+            smooth: 0,
             effects: true,
         });
     </script>
