@@ -350,9 +350,15 @@
 
 }
 @media (min-width: 321px) and (max-width: 481px) {
-    .hamburger {
+  .hamburger {
     position: relative;
-    left: 122px;
+    left: 99px;
     font-size: 28px;
 }
+.about-me{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+}
+

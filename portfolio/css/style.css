@@ -258,11 +258,14 @@ a.btn-outline:hover {
 
 /* about */
 .btn-primary {
-  background-color: rgba(62, 93, 132, 1);
-  border: none;
-  border-radius: 8px;
-  transition: 0.3s;
-  padding: 11px 10px;
+    background-color: rgba(62, 93, 132, 1);
+    border: none;
+    border-radius: 8px;
+    transition: 0.3s;
+    padding: 11px 10px;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 10px;
 }
 
 .btn-primary:hover {
