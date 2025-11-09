@@ -344,10 +344,11 @@
         top: 25%;
         right: 10%;
     }
+
     #experience .feature-box.bottom {
-    bottom: 15%;
-    left: 32%;
-}
+        bottom: 15%;
+        left: 32%;
+    }
 
     .features-left {
         display: flex;
@@ -374,8 +375,8 @@
     }
 
     .cta-buttons {
-        display: block;
-        padding: 24px;
+        /* display: block; */
+        /* padding: 24px; */
     }
 
     .more-btn {
@@ -461,11 +462,13 @@
     a.feature-btn {
         width: fit-content;
     }
+
     #experience .feature-box.right {
-    top: 24%;
-    right: -1%;
-}
-.box-1,
+        top: 24%;
+        right: -1%;
+    }
+
+    .box-1,
     .box-2,
     .box-3 {
         display: none;
@@ -509,7 +512,7 @@
         height: auto;
     }
 
-    
+
 
     img.comtro-speaker {
         width: 76%;
@@ -633,20 +636,25 @@
     .copyright-text {
         font-size: 10px;
     }
+
     #experience .image-block img {
-    max-width: 377px;
-    left: 93px;
-    top: 38px;
-}
-.feature-box{
-    display: none;
-}
-.ply-btn{
-    margin-bottom: 10px;
-}
-.store-buttons{
-    display: block;
-}
+        max-width: 377px;
+        left: 93px;
+        top: 38px;
+    }
+
+    .feature-box {
+        display: none;
+    }
+
+    .ply-btn {
+        margin-bottom: 10px;
+    }
+
+    .store-buttons {
+        display: block;
+    }
+
     .box-1,
     .box-2,
     .box-3 {
@@ -1003,10 +1011,12 @@
         outline: none;
         display: none;
     }
-    .about-img img{
+
+    .about-img img {
         max-width: 100%;
     }
-    #features{
+
+    #features {
         margin-top: 53px;
     }
 
@@ -1015,10 +1025,61 @@
 
 
 
-@media screen and (min-width:768px) and (max-width:991px){
+@media screen and (min-width:768px) and (max-width:991px) {}
 
-}
+@media screen and (max-width:767px) {}
 
-@media screen and (max-width:767px) {
+@media (min-width: 321px) and (max-width: 481px) {
+    .enquire-btn {
+        display: none;
+    }
 
+    .about-img img {
+        width: 100%;
+    }
+
+    .view-tag {
+        display: none;
+    }
+
+    .communication-cnt {
+        margin-top: 5px;
+    }
+
+    a.watch-btn {
+        padding: 13px 20px;
+        font-size: 13px;
+    }
+
+    .comtro-tag h1 {
+        font-size: 50px;
+    }
+
+    .work-img img {
+        margin: 0;
+        max-width: 100%;
+    }
+
+    .slick-prev:before,
+    .slick-next:before {
+        display: none;
+    }
+
+    .splash-mockup img {
+        margin-left: 15px;
+    }
+
+    .header {
+        padding: 22px;
+    }
+
+    #experience .feature-box {
+        display: none;
+    }
+
+    #experience .image-block img {
+        /* max-width: 377px; */
+        position: relative;
+        left: 78px;
+    }
 }
